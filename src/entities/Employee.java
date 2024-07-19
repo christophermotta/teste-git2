@@ -9,5 +9,9 @@ public class Employee {
 		this.salary = salary;
 	}
 	
+	public void tax() {
+		salary -= 10;
+	}
+	
 	
 }
